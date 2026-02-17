@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -248,7 +249,9 @@ button .fas {
   font-size: 18px;
   padding: 16px 20px;
   border-radius: 8px;
-  color: #333;
+  color: #003c71;
+  background-color: #e8f4fc;
+  border: 2px solid #0071c5;
   margin-bottom: 15px;
   display: none;
 }
@@ -329,6 +332,23 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.team-attendee-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #334155;
+}
+
+.team-attendee-list li {
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.team-attendee-list li:last-child {
+  border-bottom: none;
 }
 
 /* Team card colors */
